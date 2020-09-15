@@ -39,7 +39,12 @@ Data = {
         'all' : [29057833, 926087, 20914855]
 }
 
+
+
 df = DataFrame(Data, columns=['all'], index=['New Cases', 'Deaths', 'Recovered'])
 df.plot.pie(y='all', figsize=(5, 5), autopct='%1.1f%%', startangle=90)
+
+
+# --------------------------- VISUALIZING DATA ---------------------------
 
 plt.show()
